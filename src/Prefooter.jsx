@@ -4,7 +4,7 @@ function Prefooter(){
     return(
         <>
         <div id="prefo">
-        <h1>caio troxa</h1>
+        <h1>caio troxa!</h1>
         <img src={maoMoney} alt="img" />
         </div>
         </>
