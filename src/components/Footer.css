@@ -1,0 +1,70 @@
+Footer{
+    background-image: linear-gradient(45deg,rgba(51, 51, 58, 0.5),rgba(255, 0, 191, 0.445),rgba(128, 0, 128, 0.459),rgba(111, 0, 255, 0.445));
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 180px;
+}
+#logoo{
+     transform: translateX(30%);
+}
+Footer a:hover{
+color: red;
+}
+Footer img{
+    height: auto;
+    width: 140px;
+}
+Footer a{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.719);
+}
+#link_1{
+   
+   height: 150px;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    gap: 9px;
+}
+#link_2{
+       
+   height: 150px;
+   width: 700px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+    gap: 9px;
+}
+#link_3{
+      
+   height: 150px;
+   width: 200px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   gap: 9px;
+}
+
+#imagens_rede{
+
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+    left: 50%;
+    transform: translateX(-30%);
+
+}
+#imagens_rede img{
+height: auto;
+width: 40px;
+transition: 0.7s;
+}
+#imagens_rede img:hover{
+transform: scale(1.3);
+
+}

@@ -1,0 +1,33 @@
+
+@font-face{
+    font-family: Design;
+    src: url('./assets/font/Longreach.otf') format('opentype');
+}#prefo{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 25%;
+margin-inline: 7%;
+}
+#prefo img{
+margin-left: auto;
+animation:moveMao 1s infinite;
+position:relative;
+}
+#prefo h1{
+    font-family: Design,sans-serif;
+    color: rgb(218, 203, 203);
+    font-size: 90px;
+}
+@keyframes moveMao{
+    0%{
+        transform: rotate(0deg);
+    }
+     50%{
+        transform: rotate(20deg);
+    }
+     100%{
+        transform: rotate(0deg);
+    }
+}

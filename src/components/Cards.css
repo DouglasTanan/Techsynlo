@@ -1,0 +1,42 @@
+#square{
+    background-color: rgba(245, 181, 236, 0.253);
+    height: 410px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    
+}
+#square img{
+    display: block;
+    height:220px;
+    width: 300px;
+    border-radius: 30px;
+    justify-content: center;
+}
+#square h1{
+color: rgba(255, 255, 255, 0.932);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 40px;
+margin-top: 2%;
+
+
+}
+#square p{
+    color: rgba(0, 0, 0, 0.63);
+    font-size:25px;
+    font-family: Impact, Haettenschweiler,  sans-serif;
+    margin-top: 5%;
+}
+#square button{
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid rgba(126, 120, 120, 0.644);
+    margin-top: 6%;
+    background-color: rgba(255, 0, 212, 0.308);
+}
+

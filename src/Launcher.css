@@ -1,0 +1,105 @@
+@font-face{
+    font-family: Design;
+    src: url('./assets/font/AGRESSIVE.otf') format('opentype');
+}
+#h1_text{
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: Design,sans-serif;
+    font-size: 50px;
+    border-right: 10px solid rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 17.1ch;
+    animation:piscar .5s step-end infinite, escrever 14s steps(30, end) infinite;
+}
+#p_text{
+    color: rgb(255, 255, 255);
+    width: 600px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 13%;
+}
+#launcher{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    margin-left: 4%;
+    margin-top: 14%;
+    
+    
+}
+
+#Saiba{
+    height: 40px;
+    width: 150px;
+    border: 1px solid rgba(139, 132, 132, 0.438);
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: rgba(82, 7, 153, 0.623);
+    color: white;
+    backdrop-filter: blur(3px);
+    transition: 1s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Saiba:hover{
+    transform: scale(1.1);
+    
+}
+#launcher_dad{
+    display: flex;
+    flex-direction: row;
+     gap: 27px;
+}
+#img1{
+     width: auto;
+     height: 460px;
+    border-radius: 30px;
+    margin-left: 14%;
+    margin-top: 2%;
+   animation: updown 2.4s infinite ease-in-out alternate
+    
+}
+@keyframes updown{
+    from{
+    transform: translateY(40px) scale(1);
+    
+    }
+    to{
+     transform: translateY(120px) scale(1.1);
+    
+
+    }
+}
+@keyframes piscar{
+    50%{
+        border-right-color: transparent;
+    }
+}
+@keyframes escrever{
+    0%{
+        width: 0;
+    }
+    20%{
+        width: 0;
+    }
+    50%{
+        width: 32.01ch;
+    }
+    70%{
+        width: 32.01ch;
+    }
+     90%{
+        width: 32.01ch;
+    }
+    
+    100%{
+        width: 0;
+    }
+}
